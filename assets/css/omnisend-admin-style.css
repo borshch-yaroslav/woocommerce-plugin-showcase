@@ -1,0 +1,60 @@
+.omnisend-page {
+	padding: 30px 3%;
+}
+
+h1{
+	margin-bottom:  40px;
+}
+
+.account-id-section{
+	margin-bottom:  40px;
+}
+
+.omnisend-warning {
+	color: red;
+}
+
+.omnisend-success{
+	color: blue;
+}
+
+.omnisend-key, .current-account-id{
+	color: green;
+}
+
+.synchronize-block {
+	margin-top: 30px;
+}
+
+#synchronize-existing {
+	cursor: pointer;
+}
+
+.response-message-accountid, .response-message-key, .response-message-sync{
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 10px;
+}
+
+/*Ajax animation*/
+.omnisend-ajax-modal {
+    display:    none;
+    position:   fixed;
+    z-index:    9999;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../img/loader-ajax.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+.omnisend-ajax-loading {
+    overflow: hidden;   
+}
+
+.omnisend-ajax-loading .omnisend-ajax-modal {
+    display: block;
+}
